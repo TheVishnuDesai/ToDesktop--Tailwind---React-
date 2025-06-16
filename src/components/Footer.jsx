@@ -8,7 +8,7 @@ const Footer = () => {
 
           <div className="flex flex-col gap-6">
             <a href="#" className="flex items-center">
-              <img src="/assets/asset 0.png" alt="Logo" className="h-8" />
+              <img src="/assets/asset0.png" alt="Logo" className="h-8" />
               <span className="ml-2 text-xl font-semibold text-gray-800">
                 ToDesktop
               </span>
