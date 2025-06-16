@@ -27,11 +27,11 @@ A frontend-only clone of the [ToDesktop](https://www.todesktop.com/) website, bu
 ## 📸 Screenshots
 
 ![desktop view](./Screenshot/desktop-view.png)
-![mobile view](./screenshot/mobile-view.png)
+![mobile view](./Screenshot/mobile-view.png)
 
 ## 🛠️ Installation
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/TheVishnuDesai/ToDesktop--Tailwind---React-.git
-   cd todesktop-ui-clone
+   cd ToDesktop--Tailwind---React
