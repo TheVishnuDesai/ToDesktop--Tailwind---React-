@@ -11,7 +11,7 @@ function Navbar() {
     <div>
       <nav className="px-6 py-4 bg-white flex items-center justify-between">
         <a href="#" className="flex items-center flex-1">
-          <img src="public/assets/asset 0.png" alt="Logo" />
+          <img src="/assets/asset0.png" alt="Logo" />
           <span className="text-black text-2xl font-normal ml-2 font-display">
             ToDesktop
           </span>
@@ -39,7 +39,7 @@ function Navbar() {
 
         <div className="flex-1 hidden lg:flex justify-end">
           <button className="flex items-center gap-3 border-slate-300 border-2 text-base px-6 py-1 rounded-lg  hover:border-slate-400">
-            <img className="h-8" src="public/assets/asset 1.svg" alt="Icon" />
+            <img className="h-8" src="/assets/asset01.svg" alt="Icon" />
             Electron Developers
             <i className="ri-arrow-right-line text-xl font-semibold"></i>
           </button>
