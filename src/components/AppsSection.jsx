@@ -51,13 +51,13 @@ const AppsSection = () => {
       <div className="flex justify-center gap-4">
         <img
           className="translate-y-3"
-          src="public/assets/asset02.svg"
+          src="/assets/asset02.svg"
           alt="down arrow"
         />
         <span className="font-semibold">APPS POWERED BY TODESKTOP</span>
         <img
           className="-scale-x-100 translate-y-3"
-          src="public/assets/asset02.svg"
+          src="/assets/asset02.svg"
           alt="down arrow"
         />
       </div>
