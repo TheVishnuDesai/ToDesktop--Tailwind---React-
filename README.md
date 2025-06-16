@@ -1,12 +1,37 @@
-# React + Vite
+# ToDesktop UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend-only clone of the [ToDesktop](https://www.todesktop.com/) website, built using **React.js** and **Tailwind CSS**. This project was created to practice and showcase my skills in building modern UIs with utility-first CSS and component-based architecture.
 
-Currently, two official plugins are available:
+![screenshot](./Screenshot/desktop-view.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 💻 Responsive and modern UI
+- 🎨 Styled with Tailwind CSS
+- ⚛️ Built with React components
+- 🔧 Clean project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Tech Stack
+
+- **React.js** – JavaScript library for building UIs
+- **Tailwind CSS** – Utility-first CSS framework
+- **Vite** / **Create React App**
+
+## 🧠 What I Learned
+
+- Setting up a React project from scratch
+- Applying utility classes from Tailwind for layout and design
+- Structuring reusable React components
+- Making a fully responsive layout with Tailwind
+
+## 📸 Screenshots
+
+![desktop view](./Screenshot/desktop-view.png)
+![mobile view](./screenshot/mobile-view.png)
+
+## 🛠️ Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/TheVishnuDesai/ToDesktop--Tailwind---React-.git
+   cd todesktop-ui-clone
