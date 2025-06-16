@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        @apply font-body
+    }
+    h1,h2,h3{
+        @apply font-display
+    }
+    .container{
+        @apply p-8 md:p-20
+    }
+    .title{
+        @apply font-bold text-4xl mb-16 md:text-5xl
+    }
+    .gradient-hover-outer{
+        @apply p-[1px] bg-slate-200 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200; 
+    }
+    .gradient-hover-inner{
+        @apply cursor-pointer bg-slate-100  group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 
+    }
+    .animate-scroll-right{
+        animation: scroll-right 45s linear infinite;
+    }
+    .animate-scroll-left{
+        animation: scroll-left 40s linear infinite;
+    }
+    @keyframes scroll-right {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translate(-50%);
+        }
+    }
+    @keyframes scroll-left {
+        0%{
+            transform: translateX(-50%);
+        }
+        100%{
+            transform: translate(0);
+        }
+    }
+    .animate-scroll-mobile-right{
+        animation: scroll-right-mobile 25s linear infinite;
+    }
+    .animate-scroll-mobile-left{
+        animation: scroll-left-mobile 30s linear infinite;
+    }
+    .animate-scroll-mobile-right-slow{
+        animation: scroll-right-mobile-slow 35s linear infinite;
+    }
+    @keyframes scroll-right-mobile {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translate(-50%);
+        }
+    }
+    @keyframes scroll-left-mobile {
+        0%{
+            transform: translateX(-50%);
+        }
+        100%{
+            transform: translate(0);
+        }
+    }
+    @keyframes scroll-right-mobile-slow {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translate(-50%);
+        }
+    }
+
+    .text-infinite-loop{
+        animation: infinite-loop 45s linear infinite;
+    }
+    @keyframes infinite-loop{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translate(-50%);
+        }
+    }
+}
